@@ -25,9 +25,9 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: var(--violet);
+    display: grid;
+    place-content: center;
     min-height: 100vh;
 }
 
