@@ -1,0 +1,44 @@
+:root {
+    /* Colors */
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Typography */
+    --ff-base: 'Open Sans', sans-serif;
+    --ff-heading: 'Poppins', sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* FOOTER */
+/* TODO: style this section at the end*/
+.attribution {
+    display: none; 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
